@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-tests-example",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "markdownlint": "markdownlint *.md ./github/**/*.md",
+    "yamllint": "yamllint .github/workflows/**.yml && yamllint .*.yml && yamllint *.yml",
+    "eslint": "eslint src/**/*.js && eslint test/**/*.js",
+    "lint": "npm run markdownlint && npm run yamllint && npm run eslint",
+    "format": "prettier src/**/*.js --write && prettier test/**/*.js --write",
+    "format-lint": "npm install && npm run format && npm run lint",
+    "test": "node test/nodejs-tests-example.js"
+  },
+  "dependencies": {
+    "nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.2"
+  },
+  "devDependencies": {
+    "eslint": "9.7.0",
+    "markdownlint-cli": "0.41.0",
+    "prettier": "3.3.3",
+    "yaml-lint": "1.7.0"
+  },
+  "engines": {
+    "node": "22.4.1"
+  }
+}
