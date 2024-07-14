@@ -16,13 +16,31 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+
   lint:
     name: Lint
 
     runs-on: ubuntu-24.04
 
     steps:
-      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+      - uses: actions/checkout@v4.1.7
+
+      # uses .markdownlint.yml for configuration
+      - name: markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v13.0.0
+        with:
+          globs: |
+            .github/**/*.md
+            *.md
+
+      - name: yamllint
+        uses: ibiqlik/action-yamllint@v3.1.0
+        with:
+          file_or_dir: |
+            .github/**/*.yml
+            .*.yml
+          strict: true
+          config_file: .yamllint.yml
 
       - name: actionlint
         uses: reviewdog/action-actionlint@4f8f9963ca57a41e5fd5b538dd79dbfbd3e0b38a # v1.54.0
