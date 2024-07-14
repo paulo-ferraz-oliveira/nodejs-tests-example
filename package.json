@@ -9,7 +9,7 @@
     "test": "node test/nodejs-tests-example.js"
   },
   "dependencies": {
-    "nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.2"
+    "nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.4"
   },
   "devDependencies": {
     "eslint": "9.7.0",
