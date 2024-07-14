@@ -3,11 +3,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "format": "prettier src/**/*.js --write && prettier test/**/*.js --write && prettier *.mjs --write",
     "markdownlint": "markdownlint *.md ./github/**/*.md",
     "yamllint": "yamllint .github/workflows/**.yml && yamllint .*.yml && yamllint *.yml",
     "eslint": "eslint src/**/*.js && eslint test/**/*.js",
     "lint": "npm run markdownlint && npm run yamllint && npm run eslint",
-    "format": "prettier src/**/*.js --write && prettier test/**/*.js --write",
     "format-lint": "npm install && npm run format && npm run lint",
     "test": "node test/nodejs-tests-example.js"
   },
