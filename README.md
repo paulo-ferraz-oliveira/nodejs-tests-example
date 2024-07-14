@@ -8,7 +8,7 @@
 This repository serves as a showcase for <https://github.com/paulo-ferraz-oliveira/nodejs-tests>.
 
 I wanted something simple, but also useful, to test it with, so I implemented a
-basid PubSub object, with interface taking inspiration from Node.js' `EventEmitter`.
+basic PubSub object, with interface taking inspiration from Node.js' `EventEmitter`.
 
 ## The project
 
