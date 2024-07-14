@@ -1,7 +1,9 @@
-# `nodejs-tests-example` [![Action][ci-img]][ci]
+# `nodejs-tests-example` [![CI][ci-img]][ci] [![Lint][lint-img]][lint]
 
 [ci]: https://github.com/paulo-ferraz-oliveira/nodejs-tests-example/actions/workflows/ci.yml
 [ci-img]: https://github.com/paulo-ferraz-oliveira/nodejs-tests-example/actions/workflows/ci.yml/badge.svg
+[lint]: https://github.com/paulo-ferraz-oliveira/nodejs-tests-example/actions/workflows/lint.yml
+[lint-img]: https://github.com/paulo-ferraz-oliveira/nodejs-tests-example/actions/workflows/lint.yml/badge.svg
 
 This repository serves as a showcase for <https://github.com/paulo-ferraz-oliveira/nodejs-tests>.
 
