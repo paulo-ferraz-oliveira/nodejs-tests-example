@@ -8,7 +8,7 @@ export default [
 	},
 	{
 		languageOptions: {
-			globals: globals.browser,
+			globals: globals.node,
 		},
 	},
 	pluginJs.configs.all,
