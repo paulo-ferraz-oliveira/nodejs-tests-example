@@ -13,6 +13,23 @@ basic PubSub object, with interface taking inspiration from Node.js' `EventEmitt
 Check the [tests](tests/) folder for a peek at how to use `nodejs-tests`, or read its
 [README](https://github.com/paulo-ferraz-oliveira/nodejs-tests) for more.
 
+## The example
+
+An example run on this repository, via ´npm run tests` yields the following output
+
+```console
+✗ npm run test
+
+> test
+> node test/pubsub.test.js
+
+===> Running suites...
+
+%%% suite pubsub: ......
+
+Failed 0 test(s). Passed 6 test(s).
+```
+
 ## The project
 
 ### Changelog
