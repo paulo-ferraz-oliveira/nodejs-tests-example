@@ -15,9 +15,9 @@ Check the [tests](tests/) folder for a peek at how to use `nodejs-tests`, or rea
 
 ## The example
 
-An example run on this repository, via ´npm run tests` yields the following output
+An example run on this repository, via `npm run tests` yields the following output
 
-```console
+```text
 ✗ npm run test
 
 > test
