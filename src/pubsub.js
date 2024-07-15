@@ -2,6 +2,7 @@
 
 globalThis.PubSub = function PubSub() {
 	'use strict';
+
 	this.elisteners = {};
 	this.on = (eventName, listener) => {
 		if (!this.elisteners[eventName]) {
