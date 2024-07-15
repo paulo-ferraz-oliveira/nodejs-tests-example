@@ -1,23 +1,23 @@
 {
-  "name": "nodejs-tests-example",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "format": "prettier src/**/*.js --write && prettier test/**/*.js --write && prettier *.mjs --write",
-    "lint": "eslint src/**/*.js && eslint test/**/*.js",
-    "format-lint": "npm install && npm run format && npm run lint",
-    "test": "node test/nodejs-tests-example.js"
-  },
-  "dependencies": {
-    "nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.6"
-  },
-  "devDependencies": {
-    "eslint": "9.7.0",
-    "markdownlint-cli": "0.41.0",
-    "prettier": "3.3.3",
-    "yaml-lint": "1.7.0"
-  },
-  "engines": {
-    "node": "22.4.1"
-  }
+	"name": "nodejs-tests-example",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"format": "prettier src/**/*.js --write && prettier test/**/*.js --write && prettier *.mjs --write && prettier package.json --write",
+		"lint": "eslint src/**/*.js && eslint test/**/*.js",
+		"format-lint": "npm install && npm run format && npm run lint",
+		"test": "node test/pubsub.test.js"
+	},
+	"dependencies": {
+		"nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.6"
+	},
+	"devDependencies": {
+		"eslint": "9.7.0",
+		"markdownlint-cli": "0.41.0",
+		"prettier": "3.3.3",
+		"yaml-lint": "1.7.0"
+	},
+	"engines": {
+		"node": "22.4.1"
+	}
 }
