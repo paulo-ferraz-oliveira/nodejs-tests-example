@@ -10,7 +10,7 @@ This repository serves as a showcase for <https://github.com/paulo-ferraz-olivei
 I wanted something simple, but also useful, to test it with, so I implemented a
 basic PubSub object, with interface taking inspiration from Node.js' `EventEmitter`.
 
-Check the [tests](tests/) folder for a peek at how to use `nodejs-tests`, or read its
+Check the [test](test/) folder for a peek at how to use `nodejs-tests`, or read its
 [README](https://github.com/paulo-ferraz-oliveira/nodejs-tests) for more.
 
 ## The example
