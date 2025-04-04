@@ -12,12 +12,12 @@
     "nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.6"
   },
   "devDependencies": {
-    "eslint": "9.16.0",
-    "markdownlint-cli": "0.43.0",
-    "prettier": "3.4.2",
+    "eslint": "9.24.0",
+    "markdownlint-cli": "0.44.0",
+    "prettier": "3.5.3",
     "yaml-lint": "1.7.0"
   },
   "engines": {
-    "node": "22.12.0"
+    "node": "22.14.0"
   }
 }
