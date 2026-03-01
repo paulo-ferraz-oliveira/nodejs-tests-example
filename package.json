@@ -12,6 +12,8 @@
     "nodejs-tests": "github:paulo-ferraz-oliveira/nodejs-tests#0.0.6"
   },
   "devDependencies": {
+    "globals": "17.3.0",
+    "@eslint/js": "10.0.1",
     "eslint": "10.0.2",
     "markdownlint-cli": "0.47.0",
     "prettier": "3.8.1",
